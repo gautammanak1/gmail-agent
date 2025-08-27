@@ -46,14 +46,12 @@ graph TD
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/gmail-asi-agent.git
-   cd gmail-asi-agent
+   git clone https://github.com/gautammanak1/gmail-agent.git
+   cd gmail-agent
    ```
 
 2. **Install Dependencies**:
    ```bash
-   pip install "uagents-adapter[a2a]"
-   pip install "a2a-sdk[all]"
    pip install -r requirements.txt
    ```
 
@@ -61,13 +59,9 @@ graph TD
    Create a `.env` file in the project root:
    ```env
    OPENAI_API_KEY=your_openai_api_key
-   COMPOSIO_API_KEY=ak_FXnLxC82hTvOtP03L5HK
-   GMAIL_AUTH_CONFIG_ID=ac_V7dCN7LUURD0
-   AGENT_PORT=8001
-   AGENT_NAME=Gmail-ASI-Agent
+   COMPOSIO_API_KEY=
+   GMAIL_AUTH_CONFIG_ID=
    ```
-   - Get `OPENAI_API_KEY` from [OpenAI](https://platform.openai.com).
-   - `COMPOSIO_API_KEY` and `GMAIL_AUTH_CONFIG_ID` are provided by default.
 
 4. **Run the Agent**:
    ```bash
@@ -381,7 +375,6 @@ For questions, reach out to Gautam Kumar at [gautam.kumar@fetch.ai](mailto:gauta
 
 - **Fetch.ai Team**: For the uAgents framework and continuous support
 - **Composio**: For the excellent Gmail integration capabilities
-- **OpenAI**: For the powerful GPT-4o-mini language model
 - **AgentVerse**: For the innovative agent deployment platform
 - **Open Source Community**: For the tools and libraries that make this possible
 
