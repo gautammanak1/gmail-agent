@@ -817,6 +817,7 @@ class GmailAgent:
 
 # Initialize GmailAgent without auth
 gmail_agent = GmailAgent(
+    user_email="gautam.kumar@fetch.ai",
     auth_config_id=os.getenv("GMAIL_AUTH_CONFIG_ID")
 )
 
