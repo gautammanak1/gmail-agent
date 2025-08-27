@@ -817,7 +817,7 @@ class GmailAgent:
 
 # Initialize GmailAgent without auth
 gmail_agent = GmailAgent(
-    auth_config_id=os.getenv("GMAIL_AUTH_CONFIG_ID", "ac_V7dCN7LUURD0")
+    auth_config_id=os.getenv("GMAIL_AUTH_CONFIG_ID")
 )
 
 @protocol.on_message(ChatMessage)
