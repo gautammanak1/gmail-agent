@@ -24,7 +24,7 @@ openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 if not os.getenv("OPENAI_API_KEY"):
     raise ValueError("OPENAI_API_KEY environment variable is required.")
 
-composio_client = Composio(api_key=os.getenv("COMPOSIO_API_KEY", "ak_FXnLxC82hTvOtP03L5HK"))
+composio_client = Composio(api_key=os.getenv("COMPOSIO_API_KEY"))
 
 # Initialize uAgent
 agent = Agent(
